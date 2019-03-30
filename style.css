@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Asap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #232323;
+  font-family: "Asap", sans-serif;
+}
+
+header {
+  background: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.5rem;
+}
+
+.main {
+  margin: 4rem auto;
+  width: 250px;
+  height: 100px;
+  border: 2px solid #f3f3f3;
+  position: relative;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-1 {
+  background: rgb(206, 73, 25);
+  color: #fff;
+  display: inline;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: -3px;
+  width: 50px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.user-2 {
+  background: rgb(206, 73, 25);
+  color: #fff;
+  display: inline;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  right: -50px;
+  width: 50px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+div span {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.main-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+
+.h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons i {
+  color: #fff;
+  margin: 0 1.5rem;
+  font-size: 4rem;
+  padding: 20px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.icons i:hover {
+  color: rgb(206, 73, 25);
+  transform: scale(1.1);
+}
+
+.main-icons h2 {
+  color: #fff;
+  animation: anime 5s infinite;
+}
+
+@keyframes anime {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50px;
+  background: rgb(206, 73, 25);
+  transition: all 0.5s;
+  position: relative;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+  transform: translateY(0);
+}
